@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog of JAVASCRIPT</title>
+    <!-- custom css -->
     <link rel="stylesheet" href="styles.css">
+    <!-- font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- tailwind link -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <!-- header section -->
     <header>
         <h1 class="text-4xl text-white text-center underline decoration-green-400 mb-9 pt-3">Javascript Blog</h1>
     </header>
-    <main class="container pl-1 pr-1 md:mx-auto">
-        <section class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+    <main class="container pl-2 pr-2 md:mx-auto">
+        <!-- blog section -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-5">
             <div class="border border-green-300 p-2 rounded">
                 <h3 class="text-xl text-green-300">Defference between Local Storage and Session Storage :</h3>
                 <hr>
@@ -28,9 +33,9 @@
                         <p class="text-white"><span class="text-green-300 text-lg">Answer :</span>
                             <br>
                             Local Storage :<br>
-                            1. Local storage data saved in local browser storage and it's store data without any expiration data.<br>
-                            2. Data is not deleted when the browser is closed.<br>
-                            3. Data is available for future sessions.
+                            <span class="text-green-300">1.</span> Local storage data saved in local browser storage and it's store data without any expiration data.<br>
+                            <span class="text-green-300">2.</span> Data is not deleted when the browser is closed.<br>
+                            <span class="text-green-300">3.</span> Data is available for future sessions.
                             
                         </p>
                     </div>
@@ -38,9 +43,9 @@
                         <p class="text-white">
                             <br>
                             Session Storage :<br>
-                            1. Session Storage store data for a session.<br>
-                            2. Data is deleted when the browser is closed.<br>
-                            3. Data is not available for future sessions.
+                            <span class="text-green-300">1.</span> Session Storage store data for a session.<br>
+                            <span class="text-green-300">2.</span> Data is deleted when the browser is closed.<br>
+                            <span class="text-green-300">3.</span> Data is not available for future sessions.
                             
                         </p>
                     </div>
@@ -54,16 +59,16 @@
                         <p class="text-white"><span class="text-green-300 text-lg">Answer :</span>
                             <br>
                             Global Scope :<br>
-                            1. When a variable declear globally and it can be defined anywhere in Javascript code that called Global scope.<br>
-                            2. Variables declared with var, let and const are quite similar when declared outside a block.<br>
+                            <span class="text-green-300">1.</span> When a variable declear globally and it can be defined anywhere in Javascript code that called Global scope.<br>
+                            <span class="text-green-300">2.</span> Variables declared with var, let and const are quite similar when declared outside a block.<br>
                         </p>
                     </div>
                     <div>
                         <p class="text-white">
                             <br>
                             Block Scope :<br>
-                            1. When a variable declear inside of if or switch or loops that's called block scope and this is not accessaable in whole Javascript file.<br>
-                            2. These two keywords provide Block Scope in JavaScript.<br>
+                            <span class="text-green-300">1.</span> When a variable declear inside of if or switch or loops that's called block scope and this is not accessaable in whole Javascript file.<br>
+                            <span class="text-green-300">2.</span> These two keywords provide Block Scope in JavaScript.<br>
                             
                         </p>
                     </div>
@@ -82,14 +87,14 @@
                 <hr>
                 <p class="text-white"><span class="text-green-300 text-lg">Answer :</span><br>
                     8 Way to get undefined:<br>
-                    1. variable that is not initialized will give undefined.<br>
-                    2. function with no return.<br>
-                    3. parameter that is not passed will be undefined.<br>
-                    4. if return has nothing on the right side will undefined.<br>
-                    5. property that doesn't exists on an object will give you undefined.<br>
-                    6. accessing array elements outside of the index range.<br>
-                    7. deleting an element inside an array .<br>
-                    8. set a value directly to undifined.
+                    <span class="text-green-300">1.</span> variable that is not initialized will give undefined.<br>
+                    <span class="text-green-300">2.</span> function with no return.<br>
+                    <span class="text-green-300">3.</span> parameter that is not passed will be undefined.<br>
+                    <span class="text-green-300">4.</span> if return has nothing on the right side will undefined.<br>
+                    <span class="text-green-300">5.</span> property that doesn't exists on an object will give you undefined.<br>
+                    <span class="text-green-300">6.</span> accessing array elements outside of the index range.<br>
+                    <span class="text-green-300">7.</span> deleting an element inside an array .<br>
+                    <span class="text-green-300">8.</span> set a value directly to undifined.
                 </p>
             </div>
         </section>
