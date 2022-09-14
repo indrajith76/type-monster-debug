@@ -46,6 +46,7 @@ const typeController = (e) => {
     display.innerHTML += `<span class="green">${newLetter === " " ? "▪" : newLetter}</span>`;
   } else {
     display.innerHTML += `<span class="red">${newLetter === " " ? "▪" : newLetter}</span>`;
+    errorCount++;
   }
 
   // check if given question text is equal to user typed text
@@ -86,7 +87,7 @@ const gameOver = () => {
   `;
 
   addHistory(questionText, timeTaken, errorCount);
-
+  console.log(errorCount);
   // restart everything
   startTime = null;
   errorCount = 0;
